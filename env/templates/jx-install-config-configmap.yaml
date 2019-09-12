@@ -1,0 +1,34 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQai2PpwVOYtzm0B67IGCO3jANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ1YWJkMWVhZC04NzFlLTQ1MTQtODhmNy0wNzcyZGY1NjMxMmMw
+    HhcNMTkwOTA5MTk0MzAwWhcNMjQwOTA3MjA0MzAwWjAvMS0wKwYDVQQDEyQ1YWJk
+    MWVhZC04NzFlLTQ1MTQtODhmNy0wNzcyZGY1NjMxMmMwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCrw9ShfQQUELjYriCJdYXQiA1Hb9r5L3rBhRVdjZE+
+    Q653CsoPBTlzMI6anT9sZSquXA1CeJJvr8twDNIkx67gerJD9iyckSqMLRdYOlTF
+    SStg2h5YRx53BzxK1aH/3ecNKReMWG1V57kNedDoTwMqDDQrJemFydjPfVP4gdfq
+    dhCfb0lZgbNxM2pSMnwlfEyyidG0f5+gcFFQw4fQOngKlq5as+2Hpy1AYUWdrJ8I
+    dsVg2TzyAJxXC9jtkalQDulrdrJw9czoVngrNFDgYBLO2UVPz7xbx6DQ4koKYJ6v
+    IlUUf6V/cer4uXlLc8BkMHEqJaRUNTAAG43/R/03DpnPAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB4
+    gK6uyKUBAvQU2QizRHKz1N7IGq9hNKu6wTCGALpLFwhNarAc/A933+wcg4Lnr+pU
+    yMaRBL59k9M2mxBwzKMWYjtXSAqZ+CD2kzbmtMGegr4keCSFn0bI+YEyNS1VGzQj
+    QEqaOSFtJAAHNAULk/081jQPk2utNK6IQdxJTOPaFGt5au3qoDCQfTsLEM6Ne+OL
+    9JjtsDCYrBl/IVkuR7iC/M1iJvHbBEUX9uW/SEJ1n7Exep21uBhAFriyk8PuijZe
+    vlt6/h8FwkDgu7p/PY8fNeEalqFj1pbkHhRKjJbYAGpwNuarDSnSYJ9X6llq0rq/
+    LR42lFEvbbqIFjLXSpkH
+    -----END CERTIFICATE-----
+  clusterName: jx-boot-cluster
+  jx-install-version: 2.0.643
+  kubeProvider: gke
+  projectID: juul-warehouse-dev
+  secretsLocation: vault
+  server: https://34.67.16.155
+  systemVaultName: jx-vault-jx-boot-clust
+  zone: us-central1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
